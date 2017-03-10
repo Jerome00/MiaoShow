@@ -15,9 +15,10 @@ class JJMainNavController: JJBaseNavController {
         let img = UIImage(named: "navBar_bg_414x70")
         bar.setBackgroundImage(img, for: .default)
         
+        
+        
     }
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
 

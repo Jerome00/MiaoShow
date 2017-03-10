@@ -62,6 +62,7 @@ class JJLoginViewController: UIViewController {
     @objc private func loginSuccess(){
         SVProgressHUD.showSuccess(withStatus: "登陆成功")
         let main = JJMainViewController()
+        DispatchQueue
         present(main, animated: true, completion: nil)
     }
 
