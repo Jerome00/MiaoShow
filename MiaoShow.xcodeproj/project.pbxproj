@@ -227,6 +227,8 @@
 		2800DA9B1E6A9B2A00786FB2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				28C8C22D1E765161003A6F54 /* Live */,
+				288215111E6C6F3E00B1DC04 /* Tools */,
 				285D10931E6B1BF200753645 /* Home */,
 				285D10921E6B1BE800753645 /* Profile */,
 				285D10891E6B19AA00753645 /* Base */,
@@ -403,7 +405,6 @@
 		285D10931E6B1BF200753645 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				288215111E6C6F3E00B1DC04 /* Tools */,
 				282BDCB41E6B3758006DB4C7 /* Care */,
 				282BDCB51E6B3758006DB4C7 /* Hot */,
 				282BDCB61E6B3758006DB4C7 /* New */,
@@ -417,7 +418,15 @@
 			children = (
 				288215121E6C6F6900B1DC04 /* JJNetWorkTool.swift */,
 			);
-			path = Tools;
+			name = Tools;
+			path = Home/Tools;
+			sourceTree = "<group>";
+		};
+		28C8C22D1E765161003A6F54 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
 			sourceTree = "<group>";
 		};
 		AC80F34BCC1B6862E6DA3C37 /* Pods */ = {
