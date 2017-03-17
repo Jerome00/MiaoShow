@@ -41,9 +41,9 @@
 		285D10911E6B1AB400753645 /* JJMainNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285D10901E6B1AB400753645 /* JJMainNavController.swift */; };
 		285D10951E6B1C6A00753645 /* JJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285D10941E6B1C6A00753645 /* JJHomeViewController.swift */; };
 		285D10971E6B1C7A00753645 /* JJProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285D10961E6B1C7A00753645 /* JJProfileViewController.swift */; };
+		2861F6621E7C3DA30022EB2A /* JJNetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861F6611E7C3DA30022EB2A /* JJNetWorkTool.swift */; };
 		2882150F1E6C682B00B1DC04 /* JJHotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882150D1E6C682B00B1DC04 /* JJHotTableViewCell.swift */; };
 		288215101E6C682B00B1DC04 /* JJHotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2882150E1E6C682B00B1DC04 /* JJHotTableViewCell.xib */; };
-		288215131E6C6F6900B1DC04 /* JJNetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288215121E6C6F6900B1DC04 /* JJNetWorkTool.swift */; };
 		70D0B4307A83D1B2B5F49E6B /* Pods_MiaoShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2432D5E7E57634223855C1C /* Pods_MiaoShow.framework */; };
 /* End PBXBuildFile section */
 
@@ -119,9 +119,9 @@
 		285D10901E6B1AB400753645 /* JJMainNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JJMainNavController.swift; path = MiaoShow/Home/Base/JJMainNavController.swift; sourceTree = SOURCE_ROOT; };
 		285D10941E6B1C6A00753645 /* JJHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHomeViewController.swift; sourceTree = "<group>"; };
 		285D10961E6B1C7A00753645 /* JJProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJProfileViewController.swift; sourceTree = "<group>"; };
+		2861F6611E7C3DA30022EB2A /* JJNetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JJNetWorkTool.swift; path = MiaoShow/Home/Tools/JJNetWorkTool.swift; sourceTree = SOURCE_ROOT; };
 		2882150D1E6C682B00B1DC04 /* JJHotTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHotTableViewCell.swift; sourceTree = "<group>"; };
 		2882150E1E6C682B00B1DC04 /* JJHotTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJHotTableViewCell.xib; sourceTree = "<group>"; };
-		288215121E6C6F6900B1DC04 /* JJNetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJNetWorkTool.swift; sourceTree = "<group>"; };
 		288215141E6C79C900B1DC04 /* MiaoShow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiaoShow-Bridging-Header.h"; sourceTree = "<group>"; };
 		CF753D4D92DF3114C74DE364 /* Pods-MiaoShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiaoShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiaoShow/Pods-MiaoShow.debug.xcconfig"; sourceTree = "<group>"; };
 		D2432D5E7E57634223855C1C /* Pods_MiaoShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiaoShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -413,10 +413,28 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		2861F6631E7C3DDF0022EB2A /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIImage;
+			path = MiaoShow/Home/Tools/UIImage;
+			sourceTree = SOURCE_ROOT;
+		};
+		2861F6641E7C3DF10022EB2A /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIImageView;
+			path = MiaoShow/Home/Tools/UIImageView;
+			sourceTree = SOURCE_ROOT;
+		};
 		288215111E6C6F3E00B1DC04 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				288215121E6C6F6900B1DC04 /* JJNetWorkTool.swift */,
+				2861F6641E7C3DF10022EB2A /* UIImageView */,
+				2861F6631E7C3DDF0022EB2A /* UIImage */,
+				2861F6611E7C3DA30022EB2A /* JJNetWorkTool.swift */,
 			);
 			name = Tools;
 			path = Home/Tools;
@@ -630,7 +648,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				280D0AAF1E6BAC2400B1492E /* JJWebViewController.swift in Sources */,
-				288215131E6C6F6900B1DC04 /* JJNetWorkTool.swift in Sources */,
 				285D108D1E6B19E500753645 /* JJBaseNavController.swift in Sources */,
 				285D108F1E6B1A2500753645 /* JJMainViewController.swift in Sources */,
 				282BDCB31E6B3383006DB4C7 /* Constant.swift in Sources */,
@@ -639,6 +656,7 @@
 				285D10971E6B1C7A00753645 /* JJProfileViewController.swift in Sources */,
 				285D108B1E6B19BD00753645 /* JJBaseViewController.swift in Sources */,
 				282BDCC31E6B37CC006DB4C7 /* JJCareViewController.swift in Sources */,
+				2861F6621E7C3DA30022EB2A /* JJNetWorkTool.swift in Sources */,
 				282BDCBB1E6B3792006DB4C7 /* JJNewViewController.swift in Sources */,
 				285D10911E6B1AB400753645 /* JJMainNavController.swift in Sources */,
 				2882150F1E6C682B00B1DC04 /* JJHotTableViewCell.swift in Sources */,
